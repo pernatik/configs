@@ -1,0 +1,1 @@
+0 */1 * * * find /opt/backup/ -name "sausage-store.jar" -type f -mmin +1801 -delete && find /opt/backup/* -type d -empty -delete
